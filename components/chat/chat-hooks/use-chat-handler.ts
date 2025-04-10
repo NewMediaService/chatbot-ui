@@ -1,11 +1,11 @@
-import { useState } from 'react';
+export const useChatHandler = () => {
+  const handleNewChat = () => {
+    console.log("Neue Unterhaltung gestartet.")
+  }
 
-export function useChatHandler() {
-  const [messages, setMessages] = useState<string[]>([]);
+  const handleFocusChatInput = () => {
+    console.log("Fokus auf Chat-Input gesetzt.")
+  }
 
-  const sendMessage = (msg: string) => {
-    setMessages(prev => [...prev, msg]);
-  };
-
-  return { messages, sendMessage };
+  return { handleNewChat, handleFocusChatInput }
 }

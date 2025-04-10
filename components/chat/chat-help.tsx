@@ -1,7 +1,7 @@
-import React from 'react';
-
-const ChatHelp = () => {
-  return <div>Hilfe für den Chat</div>;
-};
-
-export default ChatHelp;
+export const ChatHelp = () => {
+  return (
+    <div className="text-sm text-gray-500">
+      Hilfe-Komponente (Platzhalter)
+    </div>
+  )
+}

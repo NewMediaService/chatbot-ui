@@ -1,12 +1,19 @@
+import { ChatMessages } from "./chat-messages"
+import { ChatInput } from "./chat-input"
+import { ChatHelp } from "./chat-help"
+import { ChatSettings } from "./chat-settings"
+import { ChatScrollButtons } from "./chat-scroll-buttons"
+import { ChatSecondaryButtons } from "./chat-secondary-buttons"
 
-import React from "react";
-import ChatInput from "../../components/chat/chat-input";
-
-export default function ChatUI() {
+export const ChatUI = () => {
   return (
-    <div>
-      <h1>Chat UI</h1>
+    <>
+      <ChatMessages />
       <ChatInput />
-    </div>
-  );
+      <ChatHelp />
+      <ChatSettings />
+      <ChatScrollButtons />
+      <ChatSecondaryButtons />
+    </>
+  )
 }
