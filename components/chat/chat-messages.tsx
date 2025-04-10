@@ -1,6 +1,6 @@
-import { useEffect, useRef } from "react"
-import { useChatHandler } from "../chat-hooks/use-chat-handler"
-import { ChatbotUIContext } from "../../../context/context"
+import { useEffect, useRef, useContext } from "react"
+import { useChatHandler } from "./chat-hooks/use-chat-handler"
+import { ChatbotUIContext } from "../../context/context"
 
 export const ChatMessages = () => {
   const bottomRef = useRef<HTMLDivElement | null>(null)

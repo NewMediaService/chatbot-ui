@@ -1,5 +1,6 @@
-import { useChatHandler } from "../chat-hooks/use-chat-handler"
-import { ChatbotUIContext } from "../../../context/context"
+import { useContext } from "react"
+import { useChatHandler } from "./chat-hooks/use-chat-handler"
+import { ChatbotUIContext } from "../../context/context"
 
 export const ChatSecondaryButtons = () => {
   const { handleNewChat } = useChatHandler()
