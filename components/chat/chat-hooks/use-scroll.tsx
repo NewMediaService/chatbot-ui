@@ -1,4 +1,4 @@
-import { ChatbotUIContext } from "@/context/context"
+import { ChatbotUIContext } from "../../../context/context"
 import {
   type UIEventHandler,
   useCallback,
