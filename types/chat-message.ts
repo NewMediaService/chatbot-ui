@@ -1,4 +1,4 @@
-import { Tables } from "@/supabase/types"
+import { Tables } from "../../supabase/types"
 
 export interface ChatMessage {
   message: Tables<"messages">

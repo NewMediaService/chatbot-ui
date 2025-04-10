@@ -1,17 +1,17 @@
 "use client"
 
-import { ChatbotUIContext } from "@/context/context"
-import { getProfileByUserId, updateProfile } from "@/db/profile"
+import { ChatbotUIContext } from "../../../../context/context"
+import { getProfileByUserId, updateProfile } from "../../../../db/profile"
 import {
   getHomeWorkspaceByUserId,
   getWorkspacesByUserId
-} from "@/db/workspaces"
+} from "../../../../db/workspaces"
 import {
   fetchHostedModels,
   fetchOpenRouterModels
-} from "@/lib/models/fetch-models"
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesUpdate } from "@/supabase/types"
+} from "../../../../lib/models/fetch-models"
+import { supabase } from "../../../../lib/supabase/browser-client"
+import { TablesUpdate } from "../../../../supabase/types"
 import { useRouter } from "next/navigation"
 import { useContext, useEffect, useState } from "react"
 import { APIStep } from "../../../components/setup/api-step"

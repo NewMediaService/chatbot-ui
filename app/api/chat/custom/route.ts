@@ -1,5 +1,5 @@
-import { Database } from "@/supabase/types"
-import { ChatSettings } from "@/types"
+import { Database } from "../../../../../supabase/types"
+import { ChatSettings } from "../../../../../types"
 import { createClient } from "@supabase/supabase-js"
 import { OpenAIStream, StreamingTextResponse } from "ai"
 import { ServerRuntime } from "next"

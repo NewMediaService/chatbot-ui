@@ -1,4 +1,4 @@
-import { Database } from "@/supabase/types"
+import { Database } from "../../../../../supabase/types"
 import { createClient } from "@supabase/supabase-js"
 
 export const runtime = "edge"

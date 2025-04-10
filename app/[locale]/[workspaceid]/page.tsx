@@ -1,6 +1,6 @@
 "use client"
 
-import { ChatbotUIContext } from "@/context/context"
+import { ChatbotUIContext } from "../../../../context/context"
 import { useContext } from "react"
 
 export default function WorkspacePage() {
