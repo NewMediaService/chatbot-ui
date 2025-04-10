@@ -1,3 +1,3 @@
 export default function Chat() {
-  return <div>Chat-Komponente erfolgreich geladen.</div>;
+  return <div>Willkommen im NMSGPT Chat!</div>;
 }

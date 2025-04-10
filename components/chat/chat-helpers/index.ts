@@ -1,13 +1,13 @@
-import { getChatFileItems } from "../../../db/chat-files"
-import { getChats } from "../../../db/chats"
-import { getMessageFileItems } from "../../../db/message-file-items"
-import { getMessages } from "../../../db/messages"
-import { getMessageImages } from "../../../db/storage/message-images"
+import { getChatFiles } from "../../../db/chat-files";
+import { getChats } from "../../../db/chats";
+import { getMessages } from "../../../db/messages";
+import { getMessageFileItems } from "../../../db/message-file-items";
+import { getMessageImages } from "../../../db/storage/message-images";
 
 export {
-  getChatFileItems,
+  getChatFiles,
   getChats,
-  getMessageFileItems,
   getMessages,
+  getMessageFileItems,
   getMessageImages
-}
+};
