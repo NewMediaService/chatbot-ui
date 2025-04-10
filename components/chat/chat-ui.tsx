@@ -1,7 +1,12 @@
-import React from 'react';
 
-const ChatUI = () => {
-  return <div>Chat UI Komponente</div>;
-};
+import React from "react";
+import ChatInput from "../../components/chat/chat-input";
 
-export default ChatUI;
+export default function ChatUI() {
+  return (
+    <div>
+      <h1>Chat UI</h1>
+      <ChatInput />
+    </div>
+  );
+}

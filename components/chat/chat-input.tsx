@@ -1,7 +1,6 @@
-import React from 'react';
 
-const ChatInput = () => {
-  return <input placeholder="Nachricht eingeben..." />;
-};
+import React from "react";
 
-export default ChatInput;
+export default function ChatInput() {
+  return <input placeholder="Type your message..." />;
+}
