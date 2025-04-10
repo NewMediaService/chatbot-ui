@@ -1,28 +1,26 @@
-"use client"
+"use client";
 
-import { ChatHelp } from "@/components/chat/chat-help"
-import { useChatHandler } from "@/components/chat/chat-hooks/use-chat-handler"
-import { ChatInput } from "@/components/chat/chat-input"
-import { ChatSettings } from "@/components/chat/chat-settings"
-import { ChatUI } from "@/components/chat/chat-ui"
-import { QuickSettings } from "@/components/chat/quick-settings"
-import { Brand } from "@/components/ui/brand"
-import { ChatbotUIContext } from "@/context/context"
-import useHotkey from "@/lib/hooks/use-hotkey"
-import { useTheme } from "next-themes"
-import { useContext } from "react"
+import { ChatHelp } from "../../../../components/chat/chat-help";
+import { useChatHandler } from "../../../../components/chat/chat-hooks/use-chat-handler";
+import { ChatInput } from "../../../../components/chat/chat-input";
+import { ChatSettings } from "../../../../components/chat/chat-settings";
+import { ChatUI } from "../../../../components/chat/chat-ui";
+import { QuickSettings } from "../../../../components/chat/quick-settings";
+import { Brand } from "../../../../components/ui/brand";
+import { ChatbotUIContext } from "../../../../context/context";
+import useHotkey from "../../../../lib/hooks/use-hotkey";
+import { useTheme } from "next-themes";
+import { useContext } from "react";
 
 export default function ChatPage() {
-  useHotkey("o", () => handleNewChat())
+  useHotkey("o", () => handleNewChat());
   useHotkey("l", () => {
-    handleFocusChatInput()
-  })
+    handleFocusChatInput();
+  });
 
-  const { chatMessages } = useContext(ChatbotUIContext)
-
-  const { handleNewChat, handleFocusChatInput } = useChatHandler()
-
-  const { theme } = useTheme()
+  const { chatMessages } = useContext(ChatbotUIContext);
+  const { handleNewChat, handleFocusChatInput } = useChatHandler();
+  const { theme } = useTheme();
 
   return (
     <>
@@ -54,5 +52,5 @@ export default function ChatPage() {
         <ChatUI />
       )}
     </>
-  )
+  );
 }
