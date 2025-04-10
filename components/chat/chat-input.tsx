@@ -1,1 +1,7 @@
-export default function ChatInput() { return <div>Chat Input Placeholder</div>; }
+import React from 'react';
+
+const ChatInput = () => {
+  return <input placeholder="Nachricht eingeben..." />;
+};
+
+export default ChatInput;
