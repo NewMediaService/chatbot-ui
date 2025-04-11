@@ -1,4 +1,4 @@
-import { ChatbotUIContext } from "@/context/context"
+import { ChatbotUIContext } from "../../../context/context"
 import useHotkey from "@/lib/hooks/use-hotkey"
 import { IconLoader2, IconSend } from "@tabler/icons-react"
 import { FC, useContext, useState } from "react"

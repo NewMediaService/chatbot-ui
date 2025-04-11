@@ -1,4 +1,4 @@
-import { ChatbotUIContext } from "@/context/context"
+import { ChatbotUIContext } from "../../../../../context/context"
 import { createChat } from "@/db/chats"
 import { cn } from "@/lib/utils"
 import { Tables } from "@/supabase/types"

@@ -1,4 +1,4 @@
-import { ChatbotUIContext } from "@/context/context"
+import { ChatbotUIContext } from "../../../context/context"
 import {
   PROFILE_CONTEXT_MAX,
   PROFILE_DISPLAY_NAME_MAX,

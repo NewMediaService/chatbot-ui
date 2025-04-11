@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger
 } from "@/components/ui/dialog"
-import { ChatbotUIContext } from "@/context/context"
+import { ChatbotUIContext } from "../../../../../context/context"
 import { deleteFolder } from "@/db/folders"
 import { supabase } from "@/lib/supabase/browser-client"
 import { Tables } from "@/supabase/types"

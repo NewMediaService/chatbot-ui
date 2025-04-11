@@ -9,7 +9,7 @@ import {
   SheetTrigger
 } from "@/components/ui/sheet"
 import { AssignWorkspaces } from "@/components/workspace/assign-workspaces"
-import { ChatbotUIContext } from "@/context/context"
+import { ChatbotUIContext } from "../../../../../context/context"
 import {
   createAssistantCollection,
   deleteAssistantCollection,
