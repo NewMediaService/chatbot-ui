@@ -1,5 +1,5 @@
-import { LLM_LIST } from "@/lib/models/llm/llm-list"
-import { Tables } from "@/supabase/types"
+import { LLM_LIST } from "../../../"
+import { Tables } from "../../../"
 import { IconCircleCheckFilled, IconRobotFace } from "@tabler/icons-react"
 import Image from "next/image"
 import { FC } from "react"
@@ -69,3 +69,4 @@ export const QuickSettingOption: FC<QuickSettingOptionProps> = ({
     </DropdownMenuItem>
   )
 }
+

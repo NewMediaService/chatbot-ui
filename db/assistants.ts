@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getAssistantById = async (assistantId: string) => {
   const { data: assistant, error } = await supabase
@@ -182,3 +182,4 @@ export const deleteAssistantWorkspace = async (
 
   return true
 }
+

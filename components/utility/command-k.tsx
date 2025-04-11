@@ -1,5 +1,5 @@
 import { ChatbotUIContext } from "../../../context/context"
-import useHotkey from "@/lib/hooks/use-hotkey"
+import useHotkey from "../../../"
 import { IconLoader2, IconSend } from "@tabler/icons-react"
 import { FC, useContext, useState } from "react"
 import { Dialog, DialogContent } from "../ui/dialog"
@@ -85,3 +85,4 @@ export const CommandK: FC<CommandKProps> = ({}) => {
     )
   )
 }
+

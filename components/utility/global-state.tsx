@@ -3,17 +3,17 @@
 "use client"
 
 import { ChatbotUIContext } from "../../../context/context"
-import { getProfileByUserId } from "@/db/profile"
-import { getWorkspaceImageFromStorage } from "@/db/storage/workspace-images"
-import { getWorkspacesByUserId } from "@/db/workspaces"
-import { convertBlobToBase64 } from "@/lib/blob-to-b64"
+import { getProfileByUserId } from "../../../"
+import { getWorkspaceImageFromStorage } from "../../../"
+import { getWorkspacesByUserId } from "../../../"
+import { convertBlobToBase64 } from "../../../"
 import {
   fetchHostedModels,
   fetchOllamaModels,
   fetchOpenRouterModels
-} from "@/lib/models/fetch-models"
-import { supabase } from "@/lib/supabase/browser-client"
-import { Tables } from "@/supabase/types"
+} from "../../../"
+import { supabase } from "../../../"
+import { Tables } from "../../../"
 import {
   ChatFile,
   ChatMessage,
@@ -22,9 +22,9 @@ import {
   MessageImage,
   OpenRouterLLM,
   WorkspaceImage
-} from "@/types"
-import { AssistantImage } from "@/types/images/assistant-image"
-import { VALID_ENV_KEYS } from "@/types/valid-keys"
+} from "../../../"
+import { AssistantImage } from "../../../"
+import { VALID_ENV_KEYS } from "../../../"
 import { useRouter } from "next/navigation"
 import { FC, useEffect, useState } from "react"
 
@@ -329,3 +329,4 @@ export const GlobalState: FC<GlobalStateProps> = ({ children }) => {
     </ChatbotUIContext.Provider>
   )
 }
+

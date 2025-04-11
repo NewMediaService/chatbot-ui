@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabase/browser-client"
+import { supabase } from "../../../"
 
 export const uploadMessageImage = async (path: string, image: File) => {
   const bucket = "message_images"
@@ -31,3 +31,4 @@ export const getMessageImageFromStorage = async (filePath: string) => {
 
   return data.signedUrl
 }
+

@@ -1,7 +1,7 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { CHAT_SETTING_LIMITS } from "@/lib/chat-setting-limits"
-import useHotkey from "@/lib/hooks/use-hotkey"
-import { LLMID, ModelProvider } from "@/types"
+import { CHAT_SETTING_LIMITS } from "../../../"
+import useHotkey from "../../../"
+import { LLMID, ModelProvider } from "../../../"
 import { IconAdjustmentsHorizontal } from "@tabler/icons-react"
 import { FC, useContext, useEffect, useRef } from "react"
 import { Button } from "../ui/button"
@@ -92,3 +92,4 @@ export const ChatSettings: FC<ChatSettingsProps> = ({}) => {
     </Popover>
   )
 }
+

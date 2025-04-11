@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getPromptById = async (promptId: string) => {
   const { data: prompt, error } = await supabase
@@ -175,3 +175,4 @@ export const deletePromptWorkspace = async (
 
   return true
 }
+

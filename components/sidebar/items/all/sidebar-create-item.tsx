@@ -1,31 +1,31 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../../../"
 import {
   Sheet,
   SheetContent,
   SheetFooter,
   SheetHeader,
   SheetTitle
-} from "@/components/ui/sheet"
+} from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { createAssistantCollections } from "@/db/assistant-collections"
-import { createAssistantFiles } from "@/db/assistant-files"
-import { createAssistantTools } from "@/db/assistant-tools"
-import { createAssistant, updateAssistant } from "@/db/assistants"
-import { createChat } from "@/db/chats"
-import { createCollectionFiles } from "@/db/collection-files"
-import { createCollection } from "@/db/collections"
-import { createFileBasedOnExtension } from "@/db/files"
-import { createModel } from "@/db/models"
-import { createPreset } from "@/db/presets"
-import { createPrompt } from "@/db/prompts"
+import { createAssistantCollections } from "../../../../../"
+import { createAssistantFiles } from "../../../../../"
+import { createAssistantTools } from "../../../../../"
+import { createAssistant, updateAssistant } from "../../../../../"
+import { createChat } from "../../../../../"
+import { createCollectionFiles } from "../../../../../"
+import { createCollection } from "../../../../../"
+import { createFileBasedOnExtension } from "../../../../../"
+import { createModel } from "../../../../../"
+import { createPreset } from "../../../../../"
+import { createPrompt } from "../../../../../"
 import {
   getAssistantImageFromStorage,
   uploadAssistantImage
-} from "@/db/storage/assistant-images"
-import { createTool } from "@/db/tools"
-import { convertBlobToBase64 } from "@/lib/blob-to-b64"
-import { Tables, TablesInsert } from "@/supabase/types"
-import { ContentType } from "@/types"
+} from "../../../../../"
+import { createTool } from "../../../../../"
+import { convertBlobToBase64 } from "../../../../../"
+import { Tables, TablesInsert } from "../../../../../"
+import { ContentType } from "../../../../../"
 import { FC, useContext, useRef, useState } from "react"
 import { toast } from "sonner"
 
@@ -252,3 +252,4 @@ export const SidebarCreateItem: FC<SidebarCreateItemProps> = ({
     </Sheet>
   )
 }
+

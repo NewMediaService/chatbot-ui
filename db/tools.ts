@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getToolById = async (toolId: string) => {
   const { data: tool, error } = await supabase
@@ -175,3 +175,4 @@ export const deleteToolWorkspace = async (
 
   return true
 }
+

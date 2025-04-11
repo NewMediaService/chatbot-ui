@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../../../"
 import {
   Dialog,
   DialogContent,
@@ -6,12 +6,12 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger
-} from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+} from "../../../../../"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { updateChat } from "@/db/chats"
-import { Tables } from "@/supabase/types"
+import { updateChat } from "../../../../../"
+import { Tables } from "../../../../../"
 import { IconEdit } from "@tabler/icons-react"
 import { FC, useContext, useRef, useState } from "react"
 
@@ -74,3 +74,4 @@ export const UpdateChat: FC<UpdateChatProps> = ({ chat }) => {
     </Dialog>
   )
 }
+

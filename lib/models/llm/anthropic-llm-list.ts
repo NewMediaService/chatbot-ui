@@ -1,4 +1,4 @@
-import { LLM } from "@/types"
+import { LLM } from "../../../../"
 
 const ANTHROPIC_PLATFORM_LINK =
   "https://docs.anthropic.com/claude/reference/getting-started-with-the-api"
@@ -109,3 +109,4 @@ export const ANTHROPIC_LLM_LIST: LLM[] = [
   CLAUDE_3_OPUS,
   CLAUDE_3_5_SONNET
 ]
+

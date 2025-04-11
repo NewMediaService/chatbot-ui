@@ -1,5 +1,5 @@
-import { Tables } from "@/supabase/types"
-import { LLM, LLMID, OpenRouterLLM } from "@/types"
+import { Tables } from "../../../"
+import { LLM, LLMID, OpenRouterLLM } from "../../../"
 import { toast } from "sonner"
 import { LLM_LIST_MAP } from "./llm/llm-list"
 
@@ -111,3 +111,4 @@ export const fetchOpenRouterModels = async () => {
     toast.error("Error fetching Open Router models: " + error)
   }
 }
+

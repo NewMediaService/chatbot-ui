@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getMessageById = async (messageId: string) => {
   const { data: message } = await supabase
@@ -102,3 +102,4 @@ export async function deleteMessagesIncludingAndAfter(
 
   return true
 }
+

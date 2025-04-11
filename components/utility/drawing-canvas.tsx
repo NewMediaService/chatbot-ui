@@ -1,5 +1,5 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { MessageImage } from "@/types"
+import { MessageImage } from "../../../"
 import { FC, MouseEvent, useContext, useEffect, useRef, useState } from "react"
 
 interface DrawingCanvasProps {
@@ -106,3 +106,4 @@ export const DrawingCanvas: FC<DrawingCanvasProps> = ({ imageItem }) => {
     />
   )
 }
+

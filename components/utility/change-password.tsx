@@ -1,6 +1,6 @@
 "use client"
 
-import { supabase } from "@/lib/supabase/browser-client"
+import { supabase } from "../../../"
 import { useRouter } from "next/navigation"
 import { FC, useState } from "react"
 import { Button } from "../ui/button"
@@ -62,3 +62,4 @@ export const ChangePassword: FC<ChangePasswordProps> = () => {
     </Dialog>
   )
 }
+

@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getFoldersByWorkspaceId = async (workspaceId: string) => {
   const { data: folders, error } = await supabase
@@ -55,3 +55,4 @@ export const deleteFolder = async (folderId: string) => {
 
   return true
 }
+

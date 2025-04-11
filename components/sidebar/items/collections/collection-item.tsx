@@ -1,8 +1,8 @@
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { COLLECTION_DESCRIPTION_MAX, COLLECTION_NAME_MAX } from "@/db/limits"
-import { Tables } from "@/supabase/types"
-import { CollectionFile } from "@/types"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { COLLECTION_DESCRIPTION_MAX, COLLECTION_NAME_MAX } from "../../../../../"
+import { Tables } from "../../../../../"
+import { CollectionFile } from "../../../../../"
 import { IconBooks } from "@tabler/icons-react"
 import { FC, useState } from "react"
 import { SidebarItem } from "../all/sidebar-display-item"
@@ -115,3 +115,4 @@ export const CollectionItem: FC<CollectionItemProps> = ({ collection }) => {
     />
   )
 }
+

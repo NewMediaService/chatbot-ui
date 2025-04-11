@@ -1,15 +1,15 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { updateAssistant } from "@/db/assistants"
-import { updateChat } from "@/db/chats"
-import { updateCollection } from "@/db/collections"
-import { updateFile } from "@/db/files"
-import { updateModel } from "@/db/models"
-import { updatePreset } from "@/db/presets"
-import { updatePrompt } from "@/db/prompts"
-import { updateTool } from "@/db/tools"
-import { cn } from "@/lib/utils"
-import { Tables } from "@/supabase/types"
-import { ContentType, DataItemType, DataListType } from "@/types"
+import { updateAssistant } from "../../../"
+import { updateChat } from "../../../"
+import { updateCollection } from "../../../"
+import { updateFile } from "../../../"
+import { updateModel } from "../../../"
+import { updatePreset } from "../../../"
+import { updatePrompt } from "../../../"
+import { updateTool } from "../../../"
+import { cn } from "../../../"
+import { Tables } from "../../../"
+import { ContentType, DataItemType, DataListType } from "../../../"
 import { FC, useContext, useEffect, useRef, useState } from "react"
 import { Separator } from "../ui/separator"
 import { AssistantItem } from "./items/assistants/assistant-item"
@@ -342,3 +342,4 @@ export const SidebarDataList: FC<SidebarDataListProps> = ({
     </>
   )
 }
+

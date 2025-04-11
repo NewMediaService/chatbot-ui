@@ -1,4 +1,4 @@
-import { ContentType } from "@/types"
+import { ContentType } from "../../../"
 import {
   IconAdjustmentsHorizontal,
   IconBolt,
@@ -91,3 +91,4 @@ export const SidebarSwitcher: FC<SidebarSwitcherProps> = ({
     </div>
   )
 }
+

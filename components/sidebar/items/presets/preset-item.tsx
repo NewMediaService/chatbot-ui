@@ -1,10 +1,10 @@
-import { ModelIcon } from "@/components/models/model-icon"
-import { ChatSettingsForm } from "@/components/ui/chat-settings-form"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { PRESET_NAME_MAX } from "@/db/limits"
-import { LLM_LIST } from "@/lib/models/llm/llm-list"
-import { Tables } from "@/supabase/types"
+import { ModelIcon } from "../../../../../"
+import { ChatSettingsForm } from "../../../../../"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { PRESET_NAME_MAX } from "../../../../../"
+import { LLM_LIST } from "../../../../../"
+import { Tables } from "../../../../../"
 import { FC, useState } from "react"
 import { SidebarItem } from "../all/sidebar-display-item"
 
@@ -73,3 +73,4 @@ export const PresetItem: FC<PresetItemProps> = ({ preset }) => {
     />
   )
 }
+

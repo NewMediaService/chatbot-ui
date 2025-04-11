@@ -1,7 +1,7 @@
-import { useChatHandler } from "@/components/chat/chat-hooks/use-chat-handler"
+import { useChatHandler } from "../../../"
 import { ChatbotUIContext } from "../../../context/context"
-import { createFolder } from "@/db/folders"
-import { ContentType } from "@/types"
+import { createFolder } from "../../../"
+import { ContentType } from "../../../"
 import { IconFolderPlus, IconPlus } from "@tabler/icons-react"
 import { FC, useContext, useState } from "react"
 import { Button } from "../ui/button"
@@ -155,3 +155,4 @@ export const SidebarCreateButtons: FC<SidebarCreateButtonsProps> = ({
     </div>
   )
 }
+

@@ -1,5 +1,5 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { Tables } from "@/supabase/types"
+import { Tables } from "../../../"
 import { FC, useContext, useEffect, useRef, useState } from "react"
 import { Button } from "../ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "../ui/dialog"
@@ -213,3 +213,4 @@ export const PromptPicker: FC<PromptPickerProps> = ({}) => {
     </>
   )
 }
+

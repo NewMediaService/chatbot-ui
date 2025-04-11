@@ -1,5 +1,5 @@
-import { Database, Tables } from "@/supabase/types"
-import { VALID_ENV_KEYS } from "@/types/valid-keys"
+import { Database, Tables } from "../../../"
+import { VALID_ENV_KEYS } from "../../../"
 import { createServerClient } from "@supabase/ssr"
 import { cookies } from "next/headers"
 
@@ -71,3 +71,4 @@ export function checkApiKey(apiKey: string | null, keyName: string) {
     throw new Error(`${keyName} API Key not found`)
   }
 }
+

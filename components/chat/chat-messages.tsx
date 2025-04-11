@@ -1,6 +1,6 @@
-import { useChatHandler } from "@/components/chat/chat-hooks/use-chat-handler"
+import { useChatHandler } from "../../../"
 import { ChatbotUIContext } from "../../../context/context"
-import { Tables } from "@/supabase/types"
+import { Tables } from "../../../"
 import { FC, useContext, useState } from "react"
 import { Message } from "../messages/message"
 
@@ -36,3 +36,4 @@ export const ChatMessages: FC<ChatMessagesProps> = ({}) => {
       )
     })
 }
+

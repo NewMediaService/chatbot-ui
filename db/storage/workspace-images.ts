@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { Tables } from "@/supabase/types"
+import { supabase } from "../../../"
+import { Tables } from "../../../"
 
 export const uploadWorkspaceImage = async (
   workspace: Tables<"workspaces">,
@@ -54,3 +54,4 @@ export const getWorkspaceImageFromStorage = async (filePath: string) => {
     console.error(error)
   }
 }
+

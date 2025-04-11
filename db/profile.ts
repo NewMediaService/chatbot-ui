@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getProfileByUserId = async (userId: string) => {
   const { data: profile, error } = await supabase
@@ -69,3 +69,4 @@ export const deleteProfile = async (profileId: string) => {
 
   return true
 }
+

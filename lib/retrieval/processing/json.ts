@@ -1,4 +1,4 @@
-import { FileItemChunk } from "@/types"
+import { FileItemChunk } from "../../../../"
 import { encode } from "gpt-tokenizer"
 import { JSONLoader } from "langchain/document_loaders/fs/json"
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
@@ -32,3 +32,4 @@ export const processJSON = async (json: Blob): Promise<FileItemChunk[]> => {
 
   return chunks
 }
+

@@ -1,7 +1,7 @@
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { MODEL_NAME_MAX } from "@/db/limits"
-import { Tables, TablesUpdate } from "@/supabase/types"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { MODEL_NAME_MAX } from "../../../../../"
+import { Tables, TablesUpdate } from "../../../../../"
 import { IconSparkles } from "@tabler/icons-react"
 import { FC, useState } from "react"
 import { SidebarItem } from "../all/sidebar-display-item"
@@ -100,3 +100,4 @@ export const ModelItem: FC<ModelItemProps> = ({ model }) => {
     />
   )
 }
+

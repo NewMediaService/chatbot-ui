@@ -1,9 +1,9 @@
-import { FileIcon } from "@/components/ui/file-icon"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { FILE_DESCRIPTION_MAX, FILE_NAME_MAX } from "@/db/limits"
-import { getFileFromStorage } from "@/db/storage/files"
-import { Tables } from "@/supabase/types"
+import { FileIcon } from "../../../../../"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { FILE_DESCRIPTION_MAX, FILE_NAME_MAX } from "../../../../../"
+import { getFileFromStorage } from "../../../../../"
+import { Tables } from "../../../../../"
 import { FC, useState } from "react"
 import { SidebarItem } from "../all/sidebar-display-item"
 
@@ -93,3 +93,4 @@ export const formatFileSize = (sizeInBytes: number): string => {
 
   return `${size.toFixed(2)} ${unit}`
 }
+

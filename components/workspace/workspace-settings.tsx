@@ -1,12 +1,12 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { WORKSPACE_INSTRUCTIONS_MAX } from "@/db/limits"
+import { WORKSPACE_INSTRUCTIONS_MAX } from "../../../"
 import {
   getWorkspaceImageFromStorage,
   uploadWorkspaceImage
-} from "@/db/storage/workspace-images"
-import { updateWorkspace } from "@/db/workspaces"
-import { convertBlobToBase64 } from "@/lib/blob-to-b64"
-import { LLMID } from "@/types"
+} from "../../../"
+import { updateWorkspace } from "../../../"
+import { convertBlobToBase64 } from "../../../"
+import { LLMID } from "../../../"
 import { IconHome, IconSettings } from "@tabler/icons-react"
 import { FC, useContext, useEffect, useRef, useState } from "react"
 import { toast } from "sonner"
@@ -298,3 +298,4 @@ export const WorkspaceSettings: FC<WorkspaceSettingsProps> = ({}) => {
     </Sheet>
   )
 }
+

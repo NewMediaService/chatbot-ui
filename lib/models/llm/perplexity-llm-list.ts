@@ -1,4 +1,4 @@
-import { LLM } from "@/types"
+import { LLM } from "../../../../"
 
 const PERPLEXITY_PLATORM_LINK =
   "https://docs.perplexity.ai/docs/getting-started"
@@ -86,3 +86,4 @@ export const PERPLEXITY_LLM_LIST: LLM[] = [
   PERPLEXITY_SONAR_MEDIUM_CHAT_8x7B,
   PERPLEXITY_SONAR_MEDIUM_ONLINE_8x7B
 ]
+

@@ -1,9 +1,9 @@
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { TextareaAutosize } from "@/components/ui/textarea-autosize"
-import { TOOL_DESCRIPTION_MAX, TOOL_NAME_MAX } from "@/db/limits"
-import { validateOpenAPI } from "@/lib/openapi-conversion"
-import { Tables } from "@/supabase/types"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { TextareaAutosize } from "../../../../../"
+import { TOOL_DESCRIPTION_MAX, TOOL_NAME_MAX } from "../../../../../"
+import { validateOpenAPI } from "../../../../../"
+import { Tables } from "../../../../../"
 import { IconBolt } from "@tabler/icons-react"
 import { FC, useState } from "react"
 import { SidebarItem } from "../all/sidebar-display-item"
@@ -164,3 +164,4 @@ export const ToolItem: FC<ToolItemProps> = ({ tool }) => {
     />
   )
 }
+

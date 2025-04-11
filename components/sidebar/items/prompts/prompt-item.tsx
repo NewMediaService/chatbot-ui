@@ -1,8 +1,8 @@
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { TextareaAutosize } from "@/components/ui/textarea-autosize"
-import { PROMPT_NAME_MAX } from "@/db/limits"
-import { Tables } from "@/supabase/types"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { TextareaAutosize } from "../../../../../"
+import { PROMPT_NAME_MAX } from "../../../../../"
+import { Tables } from "../../../../../"
 import { IconPencil } from "@tabler/icons-react"
 import { FC, useState } from "react"
 import { SidebarItem } from "../all/sidebar-display-item"
@@ -55,3 +55,4 @@ export const PromptItem: FC<PromptItemProps> = ({ prompt }) => {
     />
   )
 }
+

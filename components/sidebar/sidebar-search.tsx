@@ -1,4 +1,4 @@
-import { ContentType } from "@/types"
+import { ContentType } from "../../../"
 import { FC } from "react"
 import { Input } from "../ui/input"
 
@@ -21,3 +21,4 @@ export const SidebarSearch: FC<SidebarSearchProps> = ({
     />
   )
 }
+

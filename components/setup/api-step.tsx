@@ -1,5 +1,5 @@
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Input } from "../../../"
+import { Label } from "../../../"
 import { FC } from "react"
 import { Button } from "../ui/button"
 
@@ -241,3 +241,4 @@ export const APIStep: FC<APIStepProps> = ({
     </>
   )
 }
+

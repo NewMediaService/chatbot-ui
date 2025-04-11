@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../../../"
 import {
   Dialog,
   DialogContent,
@@ -7,12 +7,12 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger
-} from "@/components/ui/dialog"
+} from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { deleteFolder } from "@/db/folders"
-import { supabase } from "@/lib/supabase/browser-client"
-import { Tables } from "@/supabase/types"
-import { ContentType } from "@/types"
+import { deleteFolder } from "../../../../../"
+import { supabase } from "../../../../../"
+import { Tables } from "../../../../../"
+import { ContentType } from "../../../../../"
 import { IconTrash } from "@tabler/icons-react"
 import { FC, useContext, useRef, useState } from "react"
 import { toast } from "sonner"
@@ -139,3 +139,4 @@ export const DeleteFolder: FC<DeleteFolderProps> = ({
     </Dialog>
   )
 }
+

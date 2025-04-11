@@ -1,4 +1,4 @@
-import { LLM } from "@/types"
+import { LLM } from "../../../../"
 
 const GROQ_PLATORM_LINK = "https://groq.com/"
 
@@ -68,3 +68,4 @@ export const GROQ_LLM_LIST: LLM[] = [
   MIXTRAL_8X7B,
   GEMMA_7B_IT
 ]
+

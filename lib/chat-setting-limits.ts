@@ -1,4 +1,4 @@
-import { LLMID } from "@/types"
+import { LLMID } from "../../"
 
 type ChatSettingLimits = {
   MIN_TEMPERATURE: number
@@ -238,3 +238,4 @@ export const CHAT_SETTING_LIMITS: Record<LLMID, ChatSettingLimits> = {
     MAX_CONTEXT_LENGTH: 12000
   }
 }
+

@@ -1,8 +1,8 @@
-import { cn } from "@/lib/utils"
-import mistral from "@/public/providers/mistral.png"
-import groq from "@/public/providers/groq.png"
-import perplexity from "@/public/providers/perplexity.png"
-import { ModelProvider } from "@/types"
+import { cn } from "../../../"
+import mistral from "../../../"
+import groq from "../../../"
+import perplexity from "../../../"
+import { ModelProvider } from "../../../"
 import { IconSparkles } from "@tabler/icons-react"
 import { useTheme } from "next-themes"
 import Image from "next/image"
@@ -105,3 +105,4 @@ export const ModelIcon: FC<ModelIconProps> = ({
       return <IconSparkles size={width} />
   }
 }
+

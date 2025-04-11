@@ -1,12 +1,12 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../../../"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger
-} from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
+} from "../../../../../"
+import { Input } from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { Tables } from "@/supabase/types"
+import { Tables } from "../../../../../"
 import {
   IconBolt,
   IconChevronDown,
@@ -159,3 +159,4 @@ const AssistantToolItem: FC<AssistantToolItemProps> = ({
     </div>
   )
 }
+

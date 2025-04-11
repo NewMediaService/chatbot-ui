@@ -1,13 +1,13 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../../../"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger
-} from "@/components/ui/dropdown-menu"
-import { FileIcon } from "@/components/ui/file-icon"
-import { Input } from "@/components/ui/input"
+} from "../../../../../"
+import { FileIcon } from "../../../../../"
+import { Input } from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { CollectionFile } from "@/types"
+import { CollectionFile } from "../../../../../"
 import { IconChevronDown, IconCircleCheckFilled } from "@tabler/icons-react"
 import { FC, useContext, useEffect, useRef, useState } from "react"
 
@@ -153,3 +153,4 @@ const CollectionFileItem: FC<CollectionFileItemProps> = ({
     </div>
   )
 }
+

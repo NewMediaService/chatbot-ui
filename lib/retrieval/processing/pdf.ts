@@ -1,4 +1,4 @@
-import { FileItemChunk } from "@/types"
+import { FileItemChunk } from "../../../../"
 import { encode } from "gpt-tokenizer"
 import { PDFLoader } from "langchain/document_loaders/fs/pdf"
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
@@ -28,3 +28,4 @@ export const processPdf = async (pdf: Blob): Promise<FileItemChunk[]> => {
 
   return chunks
 }
+

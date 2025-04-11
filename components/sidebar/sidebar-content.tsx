@@ -1,5 +1,5 @@
-import { Tables } from "@/supabase/types"
-import { ContentType, DataListType } from "@/types"
+import { Tables } from "../../../"
+import { ContentType, DataListType } from "../../../"
 import { FC, useState } from "react"
 import { SidebarCreateButtons } from "./sidebar-create-buttons"
 import { SidebarDataList } from "./sidebar-data-list"
@@ -48,3 +48,4 @@ export const SidebarContent: FC<SidebarContentProps> = ({
     </div>
   )
 }
+

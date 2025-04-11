@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert } from "../../"
 
 export const getAssistantFilesByAssistantId = async (assistantId: string) => {
   const { data: assistantFiles, error } = await supabase
@@ -65,3 +65,4 @@ export const deleteAssistantFile = async (
 
   return true
 }
+

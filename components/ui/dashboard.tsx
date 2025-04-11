@@ -1,12 +1,12 @@
 "use client"
 
-import { Sidebar } from "@/components/sidebar/sidebar"
-import { SidebarSwitcher } from "@/components/sidebar/sidebar-switcher"
-import { Button } from "@/components/ui/button"
-import { Tabs } from "@/components/ui/tabs"
-import useHotkey from "@/lib/hooks/use-hotkey"
-import { cn } from "@/lib/utils"
-import { ContentType } from "@/types"
+import { Sidebar } from "../../../"
+import { SidebarSwitcher } from "../../../"
+import { Button } from "../../../"
+import { Tabs } from "../../../"
+import useHotkey from "../../../"
+import { cn } from "../../../"
+import { ContentType } from "../../../"
 import { IconChevronCompactRight } from "@tabler/icons-react"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { FC, useState } from "react"
@@ -131,3 +131,4 @@ export const Dashboard: FC<DashboardProps> = ({ children }) => {
     </div>
   )
 }
+

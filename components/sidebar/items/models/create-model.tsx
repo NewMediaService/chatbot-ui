@@ -1,9 +1,9 @@
-import { SidebarCreateItem } from "@/components/sidebar/items/all/sidebar-create-item"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { SidebarCreateItem } from "../../../../../"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { MODEL_NAME_MAX } from "@/db/limits"
-import { TablesInsert } from "@/supabase/types"
+import { MODEL_NAME_MAX } from "../../../../../"
+import { TablesInsert } from "../../../../../"
 import { FC, useContext, useState } from "react"
 
 interface CreateModelProps {
@@ -115,3 +115,4 @@ export const CreateModel: FC<CreateModelProps> = ({ isOpen, onOpenChange }) => {
     />
   )
 }
+

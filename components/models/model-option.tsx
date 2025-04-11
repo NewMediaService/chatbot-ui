@@ -1,4 +1,4 @@
-import { LLM } from "@/types"
+import { LLM } from "../../../"
 import { FC } from "react"
 import { ModelIcon } from "./model-icon"
 import { IconInfoCircle } from "@tabler/icons-react"
@@ -47,3 +47,4 @@ export const ModelOption: FC<ModelOptionProps> = ({ model, onSelect }) => {
     />
   )
 }
+

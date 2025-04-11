@@ -1,8 +1,8 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { getFileFromStorage } from "@/db/storage/files"
-import useHotkey from "@/lib/hooks/use-hotkey"
-import { cn } from "@/lib/utils"
-import { ChatFile, MessageImage } from "@/types"
+import { getFileFromStorage } from "../../../"
+import useHotkey from "../../../"
+import { cn } from "../../../"
+import { ChatFile, MessageImage } from "../../../"
 import {
   IconCircleFilled,
   IconFileFilled,
@@ -281,3 +281,4 @@ const RetrievalToggle = ({}) => {
     </div>
   )
 }
+

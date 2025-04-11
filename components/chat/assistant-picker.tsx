@@ -1,5 +1,5 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { Tables } from "@/supabase/types"
+import { Tables } from "../../../"
 import { IconRobotFace } from "@tabler/icons-react"
 import Image from "next/image"
 import { FC, useContext, useEffect, useRef } from "react"
@@ -126,3 +126,4 @@ export const AssistantPicker: FC<AssistantPickerProps> = ({}) => {
     </>
   )
 }
+

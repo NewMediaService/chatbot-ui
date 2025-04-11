@@ -2,7 +2,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger
-} from "@/components/ui/collapsible"
+} from "../../../"
 import { IconChevronDown, IconChevronRight } from "@tabler/icons-react"
 import { FC, useState } from "react"
 
@@ -38,3 +38,4 @@ export const AdvancedSettings: FC<AdvancedSettingsProps> = ({ children }) => {
     </Collapsible>
   )
 }
+

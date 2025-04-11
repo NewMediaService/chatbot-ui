@@ -1,4 +1,4 @@
-import { createClient } from "@/lib/supabase/middleware"
+import { createClient } from "../"
 import { i18nRouter } from "next-i18n-router"
 import { NextResponse, type NextRequest } from "next/server"
 import i18nConfig from "./i18nConfig"
@@ -44,3 +44,4 @@ export async function middleware(request: NextRequest) {
 export const config = {
   matcher: "/((?!api|static|.*\\..*|_next|auth).*)"
 }
+

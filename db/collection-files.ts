@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert } from "../../"
 
 export const getCollectionFilesByCollectionId = async (
   collectionId: string
@@ -67,3 +67,4 @@ export const deleteCollectionFile = async (
 
   return true
 }
+

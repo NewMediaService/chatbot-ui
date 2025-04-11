@@ -1,4 +1,4 @@
-import { LLM } from "@/types"
+import { LLM } from "../../../../"
 
 const MISTRAL_PLATORM_LINK = "https://docs.mistral.ai/"
 
@@ -68,3 +68,4 @@ export const MISTRAL_LLM_LIST: LLM[] = [
   MISTRAL_MEDIUM,
   MISTRAL_LARGE
 ]
+

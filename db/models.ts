@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getModelById = async (modelId: string) => {
   const { data: model, error } = await supabase
@@ -175,3 +175,4 @@ export const deleteModelWorkspace = async (
 
   return true
 }
+

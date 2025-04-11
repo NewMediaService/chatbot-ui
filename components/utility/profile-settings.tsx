@@ -4,15 +4,15 @@ import {
   PROFILE_DISPLAY_NAME_MAX,
   PROFILE_USERNAME_MAX,
   PROFILE_USERNAME_MIN
-} from "@/db/limits"
-import { updateProfile } from "@/db/profile"
-import { uploadProfileImage } from "@/db/storage/profile-images"
-import { exportLocalStorageAsJSON } from "@/lib/export-old-data"
-import { fetchOpenRouterModels } from "@/lib/models/fetch-models"
-import { LLM_LIST_MAP } from "@/lib/models/llm/llm-list"
-import { supabase } from "@/lib/supabase/browser-client"
-import { cn } from "@/lib/utils"
-import { OpenRouterLLM } from "@/types"
+} from "../../../"
+import { updateProfile } from "../../../"
+import { uploadProfileImage } from "../../../"
+import { exportLocalStorageAsJSON } from "../../../"
+import { fetchOpenRouterModels } from "../../../"
+import { LLM_LIST_MAP } from "../../../"
+import { supabase } from "../../../"
+import { cn } from "../../../"
+import { OpenRouterLLM } from "../../../"
 import {
   IconCircleCheckFilled,
   IconCircleXFilled,
@@ -761,3 +761,4 @@ export const ProfileSettings: FC<ProfileSettingsProps> = ({}) => {
     </Sheet>
   )
 }
+

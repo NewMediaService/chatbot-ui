@@ -1,9 +1,9 @@
-import { useChatHandler } from "@/components/chat/chat-hooks/use-chat-handler"
+import { useChatHandler } from "../../../"
 import { ChatbotUIContext } from "../../../context/context"
-import { LLM_LIST } from "@/lib/models/llm/llm-list"
-import { cn } from "@/lib/utils"
-import { Tables } from "@/supabase/types"
-import { LLM, LLMID, MessageImage, ModelProvider } from "@/types"
+import { LLM_LIST } from "../../../"
+import { cn } from "../../../"
+import { Tables } from "../../../"
+import { LLM, LLMID, MessageImage, ModelProvider } from "../../../"
 import {
   IconBolt,
   IconCaretDownFilled,
@@ -443,3 +443,4 @@ export const Message: FC<MessageProps> = ({
     </div>
   )
 }
+

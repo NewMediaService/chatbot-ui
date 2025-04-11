@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../../../"
 import {
   Dialog,
   DialogContent,
@@ -7,19 +7,19 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger
-} from "@/components/ui/dialog"
+} from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { deleteAssistant } from "@/db/assistants"
-import { deleteChat } from "@/db/chats"
-import { deleteCollection } from "@/db/collections"
-import { deleteFile } from "@/db/files"
-import { deleteModel } from "@/db/models"
-import { deletePreset } from "@/db/presets"
-import { deletePrompt } from "@/db/prompts"
-import { deleteFileFromStorage } from "@/db/storage/files"
-import { deleteTool } from "@/db/tools"
-import { Tables } from "@/supabase/types"
-import { ContentType, DataItemType } from "@/types"
+import { deleteAssistant } from "../../../../../"
+import { deleteChat } from "../../../../../"
+import { deleteCollection } from "../../../../../"
+import { deleteFile } from "../../../../../"
+import { deleteModel } from "../../../../../"
+import { deletePreset } from "../../../../../"
+import { deletePrompt } from "../../../../../"
+import { deleteFileFromStorage } from "../../../../../"
+import { deleteTool } from "../../../../../"
+import { Tables } from "../../../../../"
+import { ContentType, DataItemType } from "../../../../../"
 import { FC, useContext, useRef, useState } from "react"
 
 interface SidebarDeleteItemProps {
@@ -140,3 +140,4 @@ export const SidebarDeleteItem: FC<SidebarDeleteItemProps> = ({
     </Dialog>
   )
 }
+

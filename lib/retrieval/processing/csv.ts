@@ -1,4 +1,4 @@
-import { FileItemChunk } from "@/types"
+import { FileItemChunk } from "../../../../"
 import { encode } from "gpt-tokenizer"
 import { CSVLoader } from "langchain/document_loaders/fs/csv"
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
@@ -29,3 +29,4 @@ export const processCSV = async (csv: Blob): Promise<FileItemChunk[]> => {
 
   return chunks
 }
+

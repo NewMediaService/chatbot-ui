@@ -1,4 +1,4 @@
-import { ContentType } from "@/types"
+import { ContentType } from "../../../"
 import { FC } from "react"
 import { TabsTrigger } from "../ui/tabs"
 import { WithTooltip } from "../ui/with-tooltip"
@@ -31,3 +31,4 @@ export const SidebarSwitchItem: FC<SidebarSwitchItemProps> = ({
     />
   )
 }
+

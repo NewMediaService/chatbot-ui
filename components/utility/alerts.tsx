@@ -2,7 +2,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger
-} from "@/components/ui/popover"
+} from "../../../"
 import { IconBell } from "@tabler/icons-react"
 import { FC } from "react"
 import { SIDEBAR_ICON_SIZE } from "../sidebar/sidebar-switcher"
@@ -28,3 +28,4 @@ export const Alerts: FC<AlertsProps> = () => {
     </Popover>
   )
 }
+

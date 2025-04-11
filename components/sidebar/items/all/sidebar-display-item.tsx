@@ -1,8 +1,8 @@
 import { ChatbotUIContext } from "../../../../../context/context"
-import { createChat } from "@/db/chats"
-import { cn } from "@/lib/utils"
-import { Tables } from "@/supabase/types"
-import { ContentType, DataItemType } from "@/types"
+import { createChat } from "../../../../../"
+import { cn } from "../../../../../"
+import { Tables } from "../../../../../"
+import { ContentType, DataItemType } from "../../../../../"
 import { useRouter } from "next/navigation"
 import { FC, useContext, useRef, useState } from "react"
 import { SidebarUpdateItem } from "./sidebar-update-item"
@@ -125,3 +125,4 @@ export const SidebarItem: FC<SidebarItemProps> = ({
     </SidebarUpdateItem>
   )
 }
+

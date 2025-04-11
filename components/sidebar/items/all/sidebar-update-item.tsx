@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { Label } from "@/components/ui/label"
+import { Button } from "../../../../../"
+import { Label } from "../../../../../"
 import {
   Sheet,
   SheetContent,
@@ -7,79 +7,79 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger
-} from "@/components/ui/sheet"
-import { AssignWorkspaces } from "@/components/workspace/assign-workspaces"
+} from "../../../../../"
+import { AssignWorkspaces } from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
 import {
   createAssistantCollection,
   deleteAssistantCollection,
   getAssistantCollectionsByAssistantId
-} from "@/db/assistant-collections"
+} from "../../../../../"
 import {
   createAssistantFile,
   deleteAssistantFile,
   getAssistantFilesByAssistantId
-} from "@/db/assistant-files"
+} from "../../../../../"
 import {
   createAssistantTool,
   deleteAssistantTool,
   getAssistantToolsByAssistantId
-} from "@/db/assistant-tools"
+} from "../../../../../"
 import {
   createAssistantWorkspaces,
   deleteAssistantWorkspace,
   getAssistantWorkspacesByAssistantId,
   updateAssistant
-} from "@/db/assistants"
-import { updateChat } from "@/db/chats"
+} from "../../../../../"
+import { updateChat } from "../../../../../"
 import {
   createCollectionFile,
   deleteCollectionFile,
   getCollectionFilesByCollectionId
-} from "@/db/collection-files"
+} from "../../../../../"
 import {
   createCollectionWorkspaces,
   deleteCollectionWorkspace,
   getCollectionWorkspacesByCollectionId,
   updateCollection
-} from "@/db/collections"
+} from "../../../../../"
 import {
   createFileWorkspaces,
   deleteFileWorkspace,
   getFileWorkspacesByFileId,
   updateFile
-} from "@/db/files"
+} from "../../../../../"
 import {
   createModelWorkspaces,
   deleteModelWorkspace,
   getModelWorkspacesByModelId,
   updateModel
-} from "@/db/models"
+} from "../../../../../"
 import {
   createPresetWorkspaces,
   deletePresetWorkspace,
   getPresetWorkspacesByPresetId,
   updatePreset
-} from "@/db/presets"
+} from "../../../../../"
 import {
   createPromptWorkspaces,
   deletePromptWorkspace,
   getPromptWorkspacesByPromptId,
   updatePrompt
-} from "@/db/prompts"
+} from "../../../../../"
 import {
   getAssistantImageFromStorage,
   uploadAssistantImage
-} from "@/db/storage/assistant-images"
+} from "../../../../../"
 import {
   createToolWorkspaces,
   deleteToolWorkspace,
   getToolWorkspacesByToolId,
   updateTool
-} from "@/db/tools"
-import { convertBlobToBase64 } from "@/lib/blob-to-b64"
-import { Tables, TablesUpdate } from "@/supabase/types"
-import { CollectionFile, ContentType, DataItemType } from "@/types"
+} from "../../../../../"
+import { convertBlobToBase64 } from "../../../../../"
+import { Tables, TablesUpdate } from "../../../../../"
+import { CollectionFile, ContentType, DataItemType } from "../../../../../"
 import { FC, useContext, useEffect, useRef, useState } from "react"
 import profile from "react-syntax-highlighter/dist/esm/languages/hljs/profile"
 import { toast } from "sonner"
@@ -678,3 +678,4 @@ export const SidebarUpdateItem: FC<SidebarUpdateItemProps> = ({
     </Sheet>
   )
 }
+

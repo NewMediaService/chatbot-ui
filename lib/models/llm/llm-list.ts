@@ -1,4 +1,4 @@
-import { LLM } from "@/types"
+import { LLM } from "../../../../"
 import { ANTHROPIC_LLM_LIST } from "./anthropic-llm-list"
 import { GOOGLE_LLM_LIST } from "./google-llm-list"
 import { MISTRAL_LLM_LIST } from "./mistral-llm-list"
@@ -24,3 +24,4 @@ export const LLM_LIST_MAP: Record<string, LLM[]> = {
   perplexity: PERPLEXITY_LLM_LIST,
   anthropic: ANTHROPIC_LLM_LIST
 }
+

@@ -1,14 +1,14 @@
 "use client"
 
-import { useChatHandler } from "@/components/chat/chat-hooks/use-chat-handler"
+import { useChatHandler } from "../../../"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger
-} from "@/components/ui/popover"
+} from "../../../"
 import { ChatbotUIContext } from "../../../context/context"
-import { createWorkspace } from "@/db/workspaces"
-import useHotkey from "@/lib/hooks/use-hotkey"
+import { createWorkspace } from "../../../"
+import useHotkey from "../../../"
 import { IconBuilding, IconHome, IconPlus } from "@tabler/icons-react"
 import { ChevronsUpDown } from "lucide-react"
 import Image from "next/image"
@@ -227,3 +227,4 @@ export const WorkspaceSwitcher: FC<WorkspaceSwitcherProps> = ({}) => {
     </Popover>
   )
 }
+

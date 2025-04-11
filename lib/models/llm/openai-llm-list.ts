@@ -1,4 +1,4 @@
-import { LLM } from "@/types"
+import { LLM } from "../../../../"
 
 const OPENAI_PLATORM_LINK = "https://platform.openai.com/docs/overview"
 
@@ -88,3 +88,4 @@ export const OPENAI_LLM_LIST: LLM[] = [
   GPT4,
   GPT3_5Turbo
 ]
+

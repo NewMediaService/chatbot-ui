@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { Tables } from "@/supabase/types"
+import { supabase } from "../../../"
+import { Tables } from "../../../"
 
 export const uploadProfileImage = async (
   profile: Tables<"profiles">,
@@ -45,3 +45,4 @@ export const uploadProfileImage = async (
     url: getPublicUrlData.publicUrl
   }
 }
+

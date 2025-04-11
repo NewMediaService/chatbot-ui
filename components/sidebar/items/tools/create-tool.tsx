@@ -1,11 +1,11 @@
-import { SidebarCreateItem } from "@/components/sidebar/items/all/sidebar-create-item"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { TextareaAutosize } from "@/components/ui/textarea-autosize"
+import { SidebarCreateItem } from "../../../../../"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { TextareaAutosize } from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { TOOL_DESCRIPTION_MAX, TOOL_NAME_MAX } from "@/db/limits"
-import { validateOpenAPI } from "@/lib/openapi-conversion"
-import { TablesInsert } from "@/supabase/types"
+import { TOOL_DESCRIPTION_MAX, TOOL_NAME_MAX } from "../../../../../"
+import { validateOpenAPI } from "../../../../../"
+import { TablesInsert } from "../../../../../"
 import { FC, useContext, useState } from "react"
 
 interface CreateToolProps {
@@ -170,3 +170,4 @@ export const CreateTool: FC<CreateToolProps> = ({ isOpen, onOpenChange }) => {
     />
   )
 }
+

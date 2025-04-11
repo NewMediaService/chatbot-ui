@@ -1,12 +1,12 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { getAssistantCollectionsByAssistantId } from "@/db/assistant-collections"
-import { getAssistantFilesByAssistantId } from "@/db/assistant-files"
-import { getAssistantToolsByAssistantId } from "@/db/assistant-tools"
-import { getCollectionFilesByCollectionId } from "@/db/collection-files"
-import useHotkey from "@/lib/hooks/use-hotkey"
-import { LLM_LIST } from "@/lib/models/llm/llm-list"
-import { Tables } from "@/supabase/types"
-import { LLMID } from "@/types"
+import { getAssistantCollectionsByAssistantId } from "../../../"
+import { getAssistantFilesByAssistantId } from "../../../"
+import { getAssistantToolsByAssistantId } from "../../../"
+import { getCollectionFilesByCollectionId } from "../../../"
+import useHotkey from "../../../"
+import { LLM_LIST } from "../../../"
+import { Tables } from "../../../"
+import { LLMID } from "../../../"
 import { IconChevronDown, IconRobotFace } from "@tabler/icons-react"
 import Image from "next/image"
 import { FC, useContext, useEffect, useRef, useState } from "react"
@@ -306,3 +306,4 @@ export const QuickSettings: FC<QuickSettingsProps> = ({}) => {
     </DropdownMenu>
   )
 }
+

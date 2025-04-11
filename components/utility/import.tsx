@@ -1,11 +1,11 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { createAssistants } from "@/db/assistants"
-import { createChats } from "@/db/chats"
-import { createCollections } from "@/db/collections"
-import { createFiles } from "@/db/files"
-import { createPresets } from "@/db/presets"
-import { createPrompts } from "@/db/prompts"
-import { createTools } from "@/db/tools"
+import { createAssistants } from "../../../"
+import { createChats } from "../../../"
+import { createCollections } from "../../../"
+import { createFiles } from "../../../"
+import { createPresets } from "../../../"
+import { createPrompts } from "../../../"
+import { createTools } from "../../../"
 import { IconUpload, IconX } from "@tabler/icons-react"
 import { FC, useContext, useRef, useState } from "react"
 import { toast } from "sonner"
@@ -290,3 +290,4 @@ export const Import: FC<ImportProps> = ({}) => {
     </>
   )
 }
+

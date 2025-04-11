@@ -1,7 +1,7 @@
-import { Tables } from "@/supabase/types"
-import { ChatPayload, MessageImage } from "@/types"
+import { Tables } from "../../"
+import { ChatPayload, MessageImage } from "../../"
 import { encode } from "gpt-tokenizer"
-import { getBase64FromDataURL, getMediaTypeFromDataURL } from "@/lib/utils"
+import { getBase64FromDataURL, getMediaTypeFromDataURL } from "../../"
 
 const buildBasePrompt = (
   prompt: string,
@@ -257,4 +257,5 @@ export async function adaptMessagesForGoogleGemini(
   }
   return geminiMessages
 }
+
 

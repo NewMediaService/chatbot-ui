@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabase/browser-client"
-import { TablesInsert, TablesUpdate } from "@/supabase/types"
+import { supabase } from "../../"
+import { TablesInsert, TablesUpdate } from "../../"
 
 export const getCollectionById = async (collectionId: string) => {
   const { data: collection, error } = await supabase
@@ -182,3 +182,4 @@ export const deleteCollectionWorkspace = async (
 
   return true
 }
+

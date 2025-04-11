@@ -1,6 +1,6 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { Tables } from "@/supabase/types"
-import { ContentType } from "@/types"
+import { Tables } from "../../../"
+import { ContentType } from "../../../"
 import { FC, useContext } from "react"
 import { SIDEBAR_WIDTH } from "../ui/dashboard"
 import { TabsContent } from "../ui/tabs"
@@ -109,3 +109,4 @@ export const Sidebar: FC<SidebarProps> = ({ contentType, showSidebar }) => {
     </TabsContent>
   )
 }
+

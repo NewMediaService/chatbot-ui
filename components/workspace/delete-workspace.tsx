@@ -1,5 +1,5 @@
-import { useChatHandler } from "@/components/chat/chat-hooks/use-chat-handler"
-import { Button } from "@/components/ui/button"
+import { useChatHandler } from "../../../"
+import { Button } from "../../../"
 import {
   Dialog,
   DialogContent,
@@ -8,10 +8,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger
-} from "@/components/ui/dialog"
+} from "../../../"
 import { ChatbotUIContext } from "../../../context/context"
-import { deleteWorkspace } from "@/db/workspaces"
-import { Tables } from "@/supabase/types"
+import { deleteWorkspace } from "../../../"
+import { Tables } from "../../../"
 import { FC, useContext, useRef, useState } from "react"
 import { Input } from "../ui/input"
 import { useRouter } from "next/navigation"
@@ -103,3 +103,4 @@ export const DeleteWorkspace: FC<DeleteWorkspaceProps> = ({
     </Dialog>
   )
 }
+

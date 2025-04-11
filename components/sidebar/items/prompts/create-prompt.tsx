@@ -1,10 +1,10 @@
-import { SidebarCreateItem } from "@/components/sidebar/items/all/sidebar-create-item"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { TextareaAutosize } from "@/components/ui/textarea-autosize"
+import { SidebarCreateItem } from "../../../../../"
+import { Input } from "../../../../../"
+import { Label } from "../../../../../"
+import { TextareaAutosize } from "../../../../../"
 import { ChatbotUIContext } from "../../../../../context/context"
-import { PROMPT_NAME_MAX } from "@/db/limits"
-import { TablesInsert } from "@/supabase/types"
+import { PROMPT_NAME_MAX } from "../../../../../"
+import { TablesInsert } from "../../../../../"
 import { FC, useContext, useState } from "react"
 
 interface CreatePromptProps {
@@ -70,3 +70,4 @@ export const CreatePrompt: FC<CreatePromptProps> = ({
     />
   )
 }
+

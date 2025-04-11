@@ -1,5 +1,5 @@
 import { ChatbotUIContext } from "../../../context/context"
-import { LLM, LLMID, ModelProvider } from "@/types"
+import { LLM, LLMID, ModelProvider } from "../../../"
 import { IconCheck, IconChevronDown } from "@tabler/icons-react"
 import { FC, useContext, useEffect, useRef, useState } from "react"
 import { Button } from "../ui/button"
@@ -201,3 +201,4 @@ export const ModelSelect: FC<ModelSelectProps> = ({
     </DropdownMenu>
   )
 }
+

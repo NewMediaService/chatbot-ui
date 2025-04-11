@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { useCopyToClipboard } from "@/lib/hooks/use-copy-to-clipboard"
+import { Button } from "../../../"
+import { useCopyToClipboard } from "../../../"
 import { IconCheck, IconCopy, IconDownload } from "@tabler/icons-react"
 import { FC, memo } from "react"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
@@ -133,3 +133,4 @@ export const MessageCodeBlock: FC<MessageCodeBlockProps> = memo(
 )
 
 MessageCodeBlock.displayName = "MessageCodeBlock"
+
